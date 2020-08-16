@@ -10,7 +10,7 @@ import multiprocessing
 import threading
 import concurrent
 
-BOT_OWNER_ROLE = 'fetch' # change to what you need
+BOT_OWNER_ROLE = 'fetch' #Swagiq
 BOT_OWNER_ROLE_ID = "495639450936803369"
   
  
@@ -270,7 +270,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NzM5NDTkasiBs2csb2354sk1.XyasKQ.E-Fajk51cs56afCT-a-Lm0TopUtg8'))
+    loop.create_task(bot.start('NzQ0NTYyMzk1NjQ4NjIyNzA0.XzlBxA.kZxWp6Xs_OMnWCk1RsTmz5HK_QI'))
     loop.run_forever()
 
 
